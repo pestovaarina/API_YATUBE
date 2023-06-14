@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from rest_framework.validators import UniqueTogetherValidator
 
-from yatube_api.posts.models import Post, Group, Comment, Follow, User
+from posts.models import Post, Group, Comment, Follow, User
 
 
 class GroupSerializer(serializers.ModelSerializer):
